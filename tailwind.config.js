@@ -3,10 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: {
-        Outfit: ['Outfit', 'sans-serif'],
-        YoungSerif: ['YoungSerif', 'serif'],
-      },
       colors: {
         'rcp-white': 'hsl(0, 0%, 100%)',
         'rcp-stone': {
@@ -22,7 +18,11 @@ module.exports = {
           800: 'hsl(332, 51%, 32%)',
           50: 'hsl(330, 100%, 98%)',
         }
-      }
+      },
+      fontFamily: {
+        outfit: ['Outfit', 'sans-serif'],
+        youngSerif: ['YoungSerif', 'serif'],
+      },
     },
   },
   plugins: [],
