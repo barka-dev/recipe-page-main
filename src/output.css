@@ -558,6 +558,11 @@ video {
   display: table;
 }
 
+.bg-rcp-stone-100 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(30 54% 90% / var(--tw-bg-opacity));
+}
+
 .font-youngSerif {
   font-family: YoungSerif, serif;
 }
