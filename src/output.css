@@ -553,3 +553,15 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.table {
+  display: table;
+}
+
+.font-youngSerif {
+  font-family: YoungSerif, serif;
+}
+
+.font-outfit {
+  font-family: Outfit, sans-serif;
+}
